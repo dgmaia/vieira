@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  background-color: rgba(30,67,110,1);
+}
+
+body {
+  min-height: 100%;
+}
+
+.bg {
+  background-image: url(../images/photovoltaic-2138992-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center -300px;
+}
+
+.logo {
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px 0 140px 0;
+
+  h1 {
+    margin-bottom: 20px;
+    svg {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  p {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #161616;
+    padding: 0 20px;
+  }
+
+  a {
+    display: inline-block;
+    padding: 12px 16px 11px 16px;
+    box-sizing: border-box;
+    background-color: rgba(30,67,110,1);
+    border-color: #0f3056;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 300;
+    transition: all 0.3s ease;
+    font-size: 14px;
+
+    &:hover {
+      background-color: darken(rgba(30,67,110,1), 10%);
+      border-color: darken(rgba(30,67,110,1), 10%);
+    }
+  }
+}
+
+.about {
+  background-color: rgba(30,67,110,0.95);
+  position: relative;
+  min-height: 400px;
+
+  h2 {
+    display: none;
+  }
+
+  .text {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px;
+    font-weight: 100;
+  }
+
+  p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.4em;
+    margin-bottom: 0.8em;
+    letter-spacing: 0.02em;
+  }
+}
+
+.map {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+
+  .gm-style-iw {
+    h2 {
+      font-size: 22px;
+      margin-bottom: 0.5em;
+      color: #1E436E;
+      padding: 8px 0 0 0;
+    }
+
+    strong {
+      color: #1E436E;
+    }
+
+    img {
+      display: none;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 0.3em;
+    }
+  }
+
+  #map {
+    margin: 0 auto;
+    height: 700px;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.last-image {
+  background-image: url(../images/scott-webb-55167.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 300px 0;
+  background-position: center -200px;
+}

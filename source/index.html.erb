@@ -1,0 +1,39 @@
+---
+# title: Vieira
+---
+
+<div class="bg">
+
+<section class="logo">
+    <h1><%= partial "images/_vieira-logo" %></h1>
+    <p>Soluções em Energia Solar</p>
+    <a href="#" class="js-scroll-to-map">Contato</a>
+</section>
+
+<section class="about">
+  <div class="text">
+    <h2>Sobre</h2>
+    <p>Nosso sol, que, por um lado, tanto fustiga algumas regiões de nosso semiárido, tem, por outro, o seu potencial humildemente reconhecido ao conseguirmos usufruir de sua presença tão intensa em nosso clima.</p>
+    <p>Fundada em 2016, a Vieira Engenharia traz ao mercado soluções voltadas ao cidadão ou empresa que deseja tornar-se independente em sua geração de energia.</p>
+    <p>Ao utilizar Energia Fotovoltaica, alinhamo-nos com o estado da arte em uma tecnologia moderna, limpa e resiliente. Perdemos a dependência financeira das oscilações tarifárias de consumo energético e nos tornamos autores na produção de energia para nosso próprio consumo.</p>
+    <p>Novos no mercado, possuímos a proposta clara de oxigenar o Ceará com engenharia robusta, confiável e sustentável.</p>
+    <p>Nos  segmentos de projeto, comissionamento, instalação e suporte, a Vieira Engenharia tem a oportunidade de oferecer uma solução personalizada às suas necessidades: da concepção dos projetos ao acompanhamento em domicílio da eficiência de nossos sistemas.</p>
+  </div>
+</section>
+
+</div>
+
+<section class="map">
+  <%= partial "shared/_map" %>
+</section>
+
+
+<script>
+  window.addEventListener('load', function() {
+    // scroll into view
+    document.querySelector('.js-scroll-to-map').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector('.map').scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+</script>
