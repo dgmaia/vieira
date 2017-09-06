@@ -5,7 +5,7 @@
 }
 
 html {
-  background-color: rgba(30,67,110,1);
+  background-color: #53635A;
 }
 
 body {
@@ -13,19 +13,19 @@ body {
 }
 
 .bg {
-  background-image: url(../images/photovoltaic-2138992-2.jpg);
+  background-image: url(../images/top-green.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center -300px;
 }
 
 .logo {
   margin: 0 auto;
   text-align: center;
-  padding: 60px 0 140px 0;
+  padding: 80px 0 80px 0;
+  background-color: #53635A;
 
   h1 {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     svg {
       display: block;
       width: 100%;
@@ -43,25 +43,25 @@ body {
     display: inline-block;
     padding: 12px 16px 11px 16px;
     box-sizing: border-box;
-    background-color: rgba(30,67,110,1);
-    border-color: #0f3056;
+    background-color: darken(#53635A, 10%);
+    border: 1px solid darken(#53635A, 10%);
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
     text-transform: uppercase;
     font-weight: 300;
     transition: all 0.3s ease;
-    font-size: 14px;
+    font-size: 16px;
 
     &:hover {
-      background-color: darken(rgba(30,67,110,1), 10%);
-      border-color: darken(rgba(30,67,110,1), 10%);
+      background-color: lighten(#53635A, 3%);
+      border-color: lighten(#53635A, 20%);
     }
   }
 }
 
 .about {
-  background-color: rgba(30,67,110,0.95);
+  background-color: rgba(83,99,90,0.20);
   position: relative;
   min-height: 400px;
 
@@ -70,18 +70,19 @@ body {
   }
 
   .text {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
-    padding: 60px;
+    padding: 80px;
     font-weight: 100;
+    text-shadow: 0px 1px 10px darken(rgba(83,99,90,1), 30%);
   }
 
   p {
-    font-size: 18px;
+    font-size: 20px;
     color: #fff;
-    line-height: 1.4em;
+    line-height: 1.55em;
     margin-bottom: 0.8em;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
   }
 }
 
@@ -94,12 +95,12 @@ body {
     h2 {
       font-size: 22px;
       margin-bottom: 0.5em;
-      color: #1E436E;
+      color: #53635A;
       padding: 8px 0 0 0;
     }
 
     strong {
-      color: #1E436E;
+      color: #53635A;
     }
 
     img {
