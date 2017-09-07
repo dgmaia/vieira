@@ -13,16 +13,17 @@ body {
 }
 
 .bg {
-  background-image: url(../images/top-green.jpg);
+  background-image: url(../images/parede-sem-logo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+
 }
 
 .logo {
   margin: 0 auto;
   text-align: center;
-  padding: 80px 0 80px 0;
-  background-color: #53635A;
+  padding: 120px 0 360px 0;
+  // background-color: #53635A;
 
   h1 {
     margin-bottom: 40px;
@@ -41,10 +42,10 @@ body {
 
   a {
     display: inline-block;
-    padding: 12px 16px 11px 16px;
+    padding: 18px 24px 16px 24px;
     box-sizing: border-box;
-    background-color: darken(#53635A, 10%);
-    border: 1px solid darken(#53635A, 10%);
+    background-color: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.15);
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
@@ -54,14 +55,15 @@ body {
     font-size: 16px;
 
     &:hover {
-      background-color: lighten(#53635A, 3%);
-      border-color: lighten(#53635A, 20%);
+      background-color: darken(#53635A, 10%);
+      border-color: darken(#53635A, 14%);
     }
   }
 }
 
 .about {
-  background-color: rgba(83,99,90,0.20);
+  // background-color: rgba(0,0,0,0.4);
+  background-color: darken(rgba(53,74,67,0.85), 5%);
   position: relative;
   min-height: 400px;
 
@@ -70,11 +72,12 @@ body {
   }
 
   .text {
+    // background-color: #53635A;
     max-width: 900px;
     margin: 0 auto;
     padding: 80px;
     font-weight: 100;
-    text-shadow: 0px 1px 10px darken(rgba(83,99,90,1), 30%);
+    // text-shadow: 0px 1px 10px darken(rgba(83,99,90,1), 60%);
   }
 
   p {
